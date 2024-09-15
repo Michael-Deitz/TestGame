@@ -32,4 +32,11 @@
     border: 1px solid white;
     margin: 5px;
     box-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.3s;
+}
+.controls > button:hover, .controls > button:active, .controls > button:focus {
+    background: #7a2c8a;
+    box-shadow: 4px 4px 4px black;
+    text-shadow: 2px 2px 2px black;
 }
